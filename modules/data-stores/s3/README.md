@@ -29,10 +29,6 @@ inputs = {
 Create a `main.tf` file that looks like the following:
 
 ```hcl
-terraform {
-  required_version = ">= 1.0.0"
-}
-
 provider "aws" {
   region = var.aws_region
 }

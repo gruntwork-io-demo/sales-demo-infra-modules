@@ -1,6 +1,6 @@
 # Infrastructure Modules
 
-This repository contains Terraform modules. Think of these modules as "blueprints" that define reusable, testable, configurable, versioned pieces of infrastructure. Find your team's `infrastructure-live` repo to see how these blueprints are used.
+This repository contains Terraform modules. Think of these modules as "blueprints" that define reusable, testable, configurable, versioned pieces of infrastructure. Find your team's `infrastructure-live-root` repo to see how these blueprints are used.
 
 Note that some of these modules rely on modules that are part of [Gruntwork](https://docs.gruntwork.io/library/reference/) Library. The Gruntwork modules live in private Git repos, and if you don't have access to those repos, please email <support@gruntwork.io>.
 

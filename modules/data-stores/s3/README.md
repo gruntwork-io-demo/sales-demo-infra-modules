@@ -8,9 +8,11 @@ To show customers how to manage modules in an `infrastructure-modules` repositor
 
 ## Where is the documentation that I'm reading right now?
 
-It's located in the [README.md file in the `modules/data-stores/s3`](https://github.com/gruntwork-io-demo/sales-demo-infra-modules/blob/main/modules/data-stores/s3/README.md) folder of the `sales-demo-infra-modules` repository.
+It's in the README.md of the module. If you're seeing this in `terragrunt catalog`, hit the `enter` key to navigate to it.
 
 ## Example Terragrunt Usage
+
+Create a `terragrunt.hcl` file that looks like the following:
 
 ```hcl
 terraform {
@@ -28,8 +30,9 @@ inputs = {
 
 ## Example OpenTofu Usage
 
+Create a `main.tf` file that looks like the following:
+
 ```hcl
-# main.tf
 terraform {
   required_version = ">= 1.0.0"
 }

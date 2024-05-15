@@ -6,17 +6,13 @@ A simple S3 bucket module for sales demos.
 
 To show customers how to manage modules in an `infrastructure-modules` repository.
 
-## Where is the documentation that I'm reading right now?
-
-It's in the README.md of the module. If you're seeing this in `terragrunt catalog`, hit the `enter` key to navigate to it.
-
 ## Example Terragrunt Usage
 
 Create a `terragrunt.hcl` file that looks like the following:
 
 ```hcl
 terraform {
-  source = "git::https://github.com/gruntwork-io-demo/sales-demo-infra-modules.git//modules/data-stores/s3?ref=v0.1.0"
+  source = "git::https://github.com/gruntwork-io-demo/sales-demo-infra-modules.git//modules/data-stores/s3"
 }
 
 include "root" {
@@ -42,7 +38,7 @@ provider "aws" {
 }
 
 module "s3" {
-  source = "git@github.com:gruntwork-io/sales-demo-infra-modules.git//modules/data-stores/s3?ref=v0.1.0"
+  source = "git@github.com:gruntwork-io/sales-demo-infra-modules.git//modules/data-stores/s3"
 
   name = "name-of-bucket"
 }

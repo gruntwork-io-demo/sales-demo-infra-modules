@@ -1,1 +1,1 @@
-# ECS Cluster and service inside a VPN
+# ECS Cluster and service inside a VPC
